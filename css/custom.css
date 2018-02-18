@@ -1,0 +1,22 @@
+.jumbotron {
+    background-size: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.navbar-brand,
+.store_name {
+    font-family: 'tangerine', serif;
+    font-weight: bold;
+
+}
+
+.navbar-brand {
+    font-size: 2.5em;
+}
+
+.store_name {
+    font-size: 5em;
+}
