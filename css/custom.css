@@ -9,7 +9,9 @@
 }
 /* Adding cursive font to Furniture aNew*/
 .navbar-brand,
-.store_name {
+.store_name,
+.footer_name,
+.footer_paragraph {
     font-family: 'tangerine', serif;
     font-weight: bold;
 
@@ -23,10 +25,20 @@
     font-size: 5em;
 }
 
+.footer_name {
+    font-size: 3em;
+}
+
+.footer_paragraph {
+    font-size: 2em;
+    color: rgb(148, 147, 147);
+}
+
 .bg-light {
     background-color: #eeeeee!important;
 }
 
+/* Added some custom css to the caption under the figure.  Changed tezt to uppercase to keep from having to retype */
 .figure-caption {
     font-size: 80%;
     color: #fff;
@@ -35,11 +47,12 @@
     margin-bottom: .5rem;
 }
 
+/* Adding a bit of customization to the image thumbnail */
 .img-thumbnail {
     padding: .5rem;
     border: 2px solid #868e96;
     border-radius: 0;
-    background-color: #dddddd;
+    background-color: #ddd;
 }
 
 
