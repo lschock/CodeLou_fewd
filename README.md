@@ -19,14 +19,14 @@ Objectives:
 ```
 The class(es) I created are:
 
-1. class name ex( .main-info-section )
-.. what class does, ex( adds padding & changes background color of .main-info-section )
+1. .store_name
+..changes the font-family to tangerine, made the font bold, and changed font-size to 5em.
 
-2. class name ex( .main-info-section )
-.. what class does, ex( adds padding & changes background color of .main-info-section )
+2. .figure-caption
+..transforms text to uppercase, adds a font-weight, alters font-size, adds bottom margin and changes the text color to #fff
 
-3. class name ex( .main-info-section )
-.. what class does, ex( adds padding & changes background color of .main-info-section )
+3. .img-thumbnail
+..changes the thumbnail images by adding padding, border, and background color
 
 ```
 
