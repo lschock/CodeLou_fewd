@@ -21,11 +21,11 @@
 .navbar-brand {
     font-size: 2.5em;
 }
-/* Increasing font-size of Furniture aNew in jumbotron  */
+/* Increasing font-size of Furniture aNew in jumbotron - LRS */
 .store_name {
     font-size: 5em;
 }
-
+/* Changing the size of the company name in footer - LRS */
 .footer_name {
     font-size: 3em;
 }
@@ -55,7 +55,9 @@
     border-radius: 0;
     background-color: #ddd;
 }
-
+.bg-color {
+    background-color: #ddd
+}
 
 
 
