@@ -11,16 +11,16 @@ $(".dialog").click(function(event){
         draggable: false,
         blur: true,
         modal: true,  //makes it so the page dims and you cannot click on it - no interaction other than box//
-        show:{
-            effect: "fade",
+        show: {
+            effect: 'fade',
             duration: 1000
         },
         hide: {
-            effect: "blind",
+            effect: 'blind',
             duration: 500
         },
         buttons: {
-            Close: function() {  //Close will be the name of the button//
+            Ok: function() {  //Ok will be written on the button//
                 $(this).dialog("close");
             },
         }

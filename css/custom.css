@@ -10,8 +10,8 @@
 }
 /* Adding cursive font to Furniture aNew*/
 .navbar-brand,
-.store_name,
-.footer_name,
+.store_name,  /*Custom class*/
+.footer_name,  /*Custom class*/
 .footer_paragraph {
     font-family: 'tangerine', serif;
     font-weight: bold;
@@ -21,11 +21,11 @@
 .navbar-brand {
     font-size: 2.5em;
 }
-/* Increasing font-size of Furniture aNew in jumbotron - LRS */
+/* Increasing font-size of Furniture aNew in jumbotron - Custom Class */
 .store_name {
     font-size: 5em;
 }
-/* Changing the size of the company name in footer - LRS */
+/* Changing the size of the company name in footer - Custom class */
 .footer_name {
     font-size: 3em;
 }
@@ -39,7 +39,7 @@
     background-color: #eeeeee!important;
 }
 
-/* Added some custom css to the caption under the figure.  Changed tezt to uppercase to keep from having to retype */
+/* Added some custom css to the caption under the figure.  Changed text to uppercase to keep from having to retype */
 .figure-caption {
     font-size: 80%;
     color: #fff;
@@ -55,6 +55,23 @@
     border-radius: 0;
     background-color: #ddd;
 }
+
 .bg-color {
     background-color: #ddd
 }
+
+/* Custom class to change the linkedIn link to white text when you hover over it */
+a.linkedIn:hover {
+    color:white;
+}
+
+.ui-dialog,
+.ui-dialog-buttonpane {
+    color: white;
+    background: #e6e6e6;
+}
+
+.ui-dialog-titlebar {
+    background: #ffcc00;
+}
+
