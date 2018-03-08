@@ -86,4 +86,12 @@ a.linkedIn:hover {
         visibility: hidden;
 }
 
-@media 
+@media screen and (max-width: 800px) {
+    .linkedin {
+        text-align: center;
+    }
+
+    .img-padding {
+        padding-top: 5px;
+    }
+}
