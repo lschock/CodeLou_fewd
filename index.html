@@ -7,12 +7,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Tangerine">
-    <link href="css/jquery-ui.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/custom.css" />
+    
+    <!-- Other CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
-    <a href="contact.html">  <!-- linking to contact.html -->
+    <link rel="stylesheet" href="css/custom.css" />
+    
+
+   
     <title>Furniture aNew!</title>
   </head>
 
@@ -102,8 +105,8 @@
     <section class="bg-light">
     <div class="container">     
       <div class="col-md-5 mx-auto mt-50 text-center">
-        <h2 id="images">Image Gallery</h2>
-        <p>Making furntiure look new again is such a wonderful hobby!</p>
+        <h2 id="images" class="offset">Image Gallery</h2>
+        <p>Making furniture look new again is such a wonderful hobby!</p>
       </div>
     </div>
     
@@ -122,15 +125,15 @@
             <img src="img/coffee_table_painted.jpg" class="img-fluid img-thumbnail" alt="coffee table"></a>
             <figcaption class="figure-caption bg-secondary text-center py-2">Coffee Table Painted Ash Black</figcaption>
           </div>
-          <div class="col-md-4" mx-auto><a href="img/side_table.jpg" data-toggle="lightbox" data-gallery="img.gallery"> 
+          <div class="col-md-4 mx-auto"><a href="img/side_table.jpg" data-toggle="lightbox" data-gallery="img.gallery"> 
             <img src="img/side_table.jpg" class="img-fluid img-thumbnail" alt="side table"></a>
             <figcaption class="figure-caption bg-secondary text-center py-2">Coffee Table Painted Prairie Sunset</figcaption>
           </div>
-          <div class="col-md-4" mx-auto><a href="img/buffet.jpg" data-toggle="lightbox" data-gallery="img.gallery"> 
+          <div class="col-md-4 mx-auto"><a href="img/buffet.jpg" data-toggle="lightbox" data-gallery="img.gallery"> 
             <img src="img/buffet.jpg" class="img-fluid img-thumbnail" alt="dining buffet"></a>
             <figcaption class="figure-caption bg-secondary text-center py-2">Unpainted Dining Buffet</figcaption>
           </div>
-          <div class="col-md-4" mx-auto><a href="img/couch_table.jpg" data-toggle="lightbox" data-gallery="img.gallery"> 
+          <div class="col-md-4 mx-auto"><a href="img/couch_table.jpg" data-toggle="lightbox" data-gallery="img.gallery"> 
             <img src="img/couch_table.jpg" class="img-fluid img-thumbnail" alt="couch table"></a>
             <figcaption class="figure-caption bg-secondary text-center py-2">Unpainted Couch Table</figcaption>
           </div>
@@ -139,11 +142,9 @@
     </section>
     <!-- /Images Gallery -->
 
-
-  </div><!-- /container-->
    
     <!-- jQuery Modal Dialog Box -->
-    <div id="dialogbox" title="Unavailable">
+    <div id="dialogbox" title="Unavailable" style="display:none">
       <p>This link is currently under construction.  Please try again later.</p>
     </div>
 
@@ -164,22 +165,28 @@
   
           <!--third column-->
           <div class="col-md-4 text-right my-auto">
-            <div class="linkedin"><a class="linkedIn" href="https://www.linkedin.com/in/laurie-schock-321a4a100">LinkedIN</a></div>
+            <div class="linkedin"><a class="linkedIn" href="https://www.linkedin.com/in/laurie-schock-321a4a100" target="_blank">LinkedIN</a></div>
           </div>
       </div>
+    </div>
   </footer>  <!--/Footer -->
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
 
-    <!-- jQuery UI -->
-    <script src="js/jquery-ui.min.js"></script>
-
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script
+   src="https://code.jquery.com/jquery-3.3.1.js"
+   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+   crossorigin="anonymous"></script>
+ 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+ 
+     <!-- jQuery UI -->
+     <script src="js/jquery-ui.min.js"></script>
+ 
     <!-- additional JavaScript -->
     <script src="js/app.js"></script>
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
   </body>
 </html>

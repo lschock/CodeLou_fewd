@@ -8,12 +8,11 @@
     padding-bottom: 1em;
     margin-bottom: 0;
 }
-/* Adding cursive font to Furniture aNew*/
+/* Adding bold cursive font to Furniture aNew*/
 .navbar-brand,
 .store_name,  /*Custom class*/
-.footer_name,  /*Custom class*/
-.footer_paragraph {
-    font-family: 'tangerine', serif;
+.footer_name  /*Custom class*/
+ { font-family: 'tangerine', serif;
     font-weight: bold;
 
 }
@@ -22,11 +21,11 @@
     font-size: 2.5em;
 }
 /* Increasing font-size of Furniture aNew in jumbotron - Custom Class */
-.store_name {
+.store_name {     /*Custom class*/
     font-size: 5em;
 }
 /* Changing the size of the company name in footer - Custom class */
-.footer_name {
+.footer_name {     /*Custom class*/
     font-size: 3em;
 }
 
@@ -75,3 +74,16 @@ a.linkedIn:hover {
     background: #ffcc00;
 }
 
+#images {
+    outline-offset: 5px;
+}
+
+.offset:before { 
+	display: block; 
+ 	content: " "; 
+  	height: 100px;      /* Give height of your fixed element */
+        margin-top: -150px; /* Give negative margin of your fixed element */  	
+        visibility: hidden;
+}
+
+@media 
