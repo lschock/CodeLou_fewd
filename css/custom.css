@@ -1,13 +1,6 @@
 
-/* Adding some custom css to the jumbotron section*/
-.jumbotron {
-    background-size: center;
-    background-repeat: no-repeat;
-    background-position: center top;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin-bottom: 0;
-}
+/* ============== NAVBAR =============*/
+
 /* Adding bold cursive font to Furniture aNew*/
 .navbar-brand,
 .store_name,  /*Custom class*/
@@ -22,20 +15,53 @@
 }
 /* Increasing font-size of Furniture aNew in jumbotron - Custom Class */
 .store_name {     /*Custom class*/
-    font-size: 5em;
-}
-/* Changing the size of the company name in footer - Custom class */
-.footer_name {     /*Custom class*/
-    font-size: 3em;
+    font-size: 5em;    
 }
 
-.footer_paragraph {
-    font-size: 2em;
-    color: rgb(148, 147, 147);
+/* Adding gradient color to Furniture aNew!*/
+.gradient_text {
+    background: -webkit-gradient(linear, left top, left bottom, from(orange), to(green));
+    background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
-.bg-light {
-    background-color: #eeeeee!important;
+/* ============== JUMBOTRON =============*/
+/* Adding some custom css to the jumbotron section*/
+.jumbotron {
+    background-size: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 0;
+}
+
+
+/* ============== DIALOG BOX =============*/
+.ui-dialog,
+.ui-dialog-buttonpane {
+    color: white;
+    background: #e6e6e6;
+}
+
+.ui-dialog-titlebar {
+    background: #ffcc00;
+}
+
+
+/* ============== IMAGES =============*/
+
+/* Adding a bit of customization to the image thumbnail */
+.img-thumbnail {
+    padding: .5rem;
+    border: 2px solid #868e96;
+    border-radius: 0;
+    background-color: #ddd;
+}
+
+#images {
+    outline-offset: 5px;
 }
 
 /* Added some custom css to the caption under the figure.  Changed text to uppercase to keep from having to retype */
@@ -47,37 +73,7 @@
     margin-bottom: .5rem;
 }
 
-/* Adding a bit of customization to the image thumbnail */
-.img-thumbnail {
-    padding: .5rem;
-    border: 2px solid #868e96;
-    border-radius: 0;
-    background-color: #ddd;
-}
-
-.bg-color {
-    background-color: #ddd
-}
-
-/* Custom class to change the linkedIn link to white text when you hover over it */
-a.linkedIn:hover {
-    color:white;
-}
-
-.ui-dialog,
-.ui-dialog-buttonpane {
-    color: white;
-    background: #e6e6e6;
-}
-
-.ui-dialog-titlebar {
-    background: #ffcc00;
-}
-
-#images {
-    outline-offset: 5px;
-}
-
+/*have Images Navbar link to Image Gallery*/
 .offset:before { 
 	display: block; 
  	content: " "; 
@@ -86,6 +82,29 @@ a.linkedIn:hover {
         visibility: hidden;
 }
 
+.bg-light {
+    background-color: #eeeeee!important;
+}
+
+/* ============== FOOTER =============*/
+
+/* Changing the size of the company name in footer - Custom class */
+.footer_name {     /*Custom class*/
+    font-size: 3em;
+}
+
+.footer_paragraph {
+    font-size: 2em;
+    color: rgb(148, 147, 147);
+}
+
+/* Custom class to change the linkedIn link to white text when you hover over it */
+a.linkedIn:hover {
+    color:white;
+}
+
+
+/* ============== MEDIA QUERY FOR SMALL DEVICES =============*/
 @media screen and (max-width: 800px) {
     .linkedin {
         text-align: center;
@@ -94,4 +113,9 @@ a.linkedIn:hover {
     .img-padding {
         padding-top: 5px;
     }
+
+    .ui-dialog {
+        z-index:2000 !important;  /*correcting stack order of dialog box in mobile*/
+    }
+    
 }
