@@ -15,7 +15,7 @@
 }
 /* Increasing font-size of Furniture aNew in jumbotron - Custom Class */
 .store_name {     /*Custom class*/
-    font-size: 5em;    
+    font-size: 6em;    
 }
 
 /* Adding gradient color to Furniture aNew!*/
@@ -33,10 +33,9 @@
     background-repeat: no-repeat;
     background-position: center top;
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
     margin-bottom: 0;
 }
-
 
 /* ============== DIALOG BOX =============*/
 .ui-dialog,
@@ -58,6 +57,8 @@
     border: 2px solid #868e96;
     border-radius: 0;
     background-color: #ddd;
+    height: 300px;
+    width: 800px;
 }
 
 #images {
