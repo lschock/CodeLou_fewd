@@ -27,6 +27,15 @@
 }
 
 /* ============== JUMBOTRON =============*/
+/* Adding gradient color to Furniture aNew!*/
+.gradient_text {
+    background: -webkit-gradient(linear, left top, left bottom, from(maroon), to(lightgreen));
+    background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
 /* Adding some custom css to the jumbotron section*/
 .jumbotron {
     background-size: center;
@@ -36,6 +45,13 @@
     padding-bottom: 2em;
     margin-bottom: 0;
 }
+
+/* ============== BEAUTIFULLY INSPIRED =============*/
+.inspired {       /*Custom class*/
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
 
 /* ============== DIALOG BOX =============*/
 .ui-dialog,
@@ -71,7 +87,7 @@
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
-    margin-bottom: .5rem;
+    margin-bottom: 2rem;
 }
 
 /*have Images Navbar link to Image Gallery*/
@@ -118,5 +134,5 @@ a.linkedIn:hover {
     .ui-dialog {
         z-index:2000 !important;  /*correcting stack order of dialog box in mobile*/
     }
-    
+
 }

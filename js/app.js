@@ -34,4 +34,13 @@ $(document).ready(function () {
             }
         });
     });
+
+  //collapse navbar menu on click//
+  $(".navbar-nav li").click(function (event) {
+    var toggle = $(".navbar-toggler").is(":visible");
+    if (toggle) {
+      $(".navbar-collapse").collapse('hide');
+    }
+  });
+
 });// end ready
