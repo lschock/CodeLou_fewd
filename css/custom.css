@@ -135,4 +135,13 @@ a.linkedIn:hover {
         z-index:2000 !important;  /*correcting stack order of dialog box in mobile*/
     }
 
+    /*have Images Navbar link to Image Gallery*/
+.offset:before { 
+	display: block; 
+ 	content: " "; 
+  	height: 300px;      /* Give height of your fixed element */
+        margin-top: -150px; /* Give negative margin of your fixed element */  	
+        visibility: hidden;
+}
+
 }
