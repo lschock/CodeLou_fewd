@@ -28,6 +28,12 @@ The class(es) I created are:
 3. .footer_name
 ..Changing the size of the company name in footer
 
+4. .inspired
+..Add padding
+
+5. .offset:before
+..have Images Navbar link to Image Gallery
+
 ```
 
 
@@ -36,8 +42,23 @@ The class(es) I created are:
 ```
 The javascript functions I created are:
 
-1. $(".dialog").click(function(event){
+  //Add dialog box to links under construction on page
+  $(".dialog").click(function(event){
     $("#dialogbox").dialog
-.. This function adds a dialog box to the links on the page that are under construction.
+
+
+  //Reposition at top of page on refresh//
+    $(window).on('beforeunload', function () {
+        $(window).scrollTop(0);
+    });
+
+
+  //collapse navbar menu on click//
+  $(".navbar-nav li").click(function (event) {
+    var toggle = $(".navbar-toggler").is(":visible");
+    if (toggle) {
+      $(".navbar-collapse").collapse('hide');
+    }
+  });
 
 ```
