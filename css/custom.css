@@ -140,7 +140,7 @@ a.linkedIn:hover {
 	display: block; 
  	content: " "; 
   	height: 300px;      /* Give height of your fixed element */
-        margin-top: -350px; /* Give negative margin of your fixed element */  	
+        margin-top: -250px; /* Give negative margin of your fixed element */  	
         visibility: hidden;
 }
 
