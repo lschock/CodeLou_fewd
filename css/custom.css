@@ -49,7 +49,7 @@
 /* ============== BEAUTIFULLY INSPIRED =============*/
 .inspired {       /*Custom class*/
     padding-top: 2em;
-    padding-bottom: 3em;
+    padding-bottom: 1em;
 }
 
 
@@ -140,7 +140,7 @@ a.linkedIn:hover {
 	display: block; 
  	content: " "; 
   	height: 300px;      /* Give height of your fixed element */
-        margin-top: -150px; /* Give negative margin of your fixed element */  	
+        margin-top: -350px; /* Give negative margin of your fixed element */  	
         visibility: hidden;
 }
 
