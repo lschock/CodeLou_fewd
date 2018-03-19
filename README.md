@@ -3,7 +3,7 @@
 ## Description
 ```
 My project is an expression of my favorite hobby...painting furniture and making it feel NEW.  This project is a personal website displaying furniture I have painted as well as furniture still on my 'to-paint' list.  To view, open the index.html file.  
-- Home Page:  (index.html) includes an Images link in navbar.  It also includes the following links that are under construction:  About, Contact, Sign up for our Newsletter!.
+- Home Page:  (index.html) includes an Images link in navbar. It includes the following links that are under construction:  About, Contact, and Sign up for our Newsletter!.  
 
 Objectives: 
  - responsive
