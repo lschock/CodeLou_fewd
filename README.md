@@ -20,22 +20,23 @@ Objectives:
 The class(es) I created are:
 
 1. .store_name
-..changes the font-family to tangerine, made the font bold, and changed font-size to 5em
+..changes the font-family to tangerine, made the font bold, and changed font-size to 6em
 
 2. .linkedIn
 ..transforms the text to white when the linkedIn link is hovered over
 
 3. .footer_name
-..Changing the size of the company name in footer
+..Changing the size of the company name in footer to 3em
 
 4. .inspired
-..Add padding
+..Add 2em padding to top and 1em padding to bottom
 
-5. .offset:before
-..have Images Navbar link to Image Gallery
+5. #images
+..added ID that I could link to from the navbar
 
+6. .offset:before
+..have Images Navbar link to Image Gallery #images ID
 ```
-
 
 
 ## Custom JavaScript Functions
@@ -47,13 +48,13 @@ The javascript functions I created are:
     $("#dialogbox").dialog
 
 
-  //Reposition at top of page on refresh//
+  //Reposition at top of Home page on refresh//
     $(window).on('beforeunload', function () {
         $(window).scrollTop(0);
     });
 
 
-  //collapse navbar menu on click//
+  //collapse navbar menu on click in smaller screens//
   $(".navbar-nav li").click(function (event) {
     var toggle = $(".navbar-toggler").is(":visible");
     if (toggle) {
